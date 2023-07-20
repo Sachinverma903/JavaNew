@@ -16,6 +16,7 @@ public class UserInput {
         System.out.println("please enter last name");
         String lastName = sc.nextLine();
         System.out.println("your full name is " + firstName + " " + lastName);
+        int num;
 
 
 
