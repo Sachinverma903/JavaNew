@@ -2,7 +2,7 @@ package org.example;
 
 public class Loops {
     public static void main(String[] args) {
-        //=========while loop======================
+    /*    //=========while loop======================
         int num = 1;
         while(num<=10){
             System.out.print(num+" ");
@@ -12,6 +12,13 @@ public class Loops {
         //=============for loop=================================
        for(int i= 1;i<=10;i=i+1){
            System.out.print(i+" ");
-       }
+       }*/
+       //============== do while loop==========================
+        int i = 1;
+        do{
+            System.out.println(i);
+            i++;
+        }
+        while (i<=10);
     }
 }
