@@ -2,6 +2,7 @@ package org.example;
 
 public class Operator {
     public static void main(String[] args) {
+
        /* int a = 15;
         a++;        // ==> a=a+1
         System.out.println("a after ++ " + a);
