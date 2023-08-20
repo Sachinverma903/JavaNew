@@ -11,6 +11,7 @@ public class Arraylist1 {
         list1.add(70);
         list1.add(65);
         list1.remove(3);
+
        System.out.println(list1.size());
         System.out.println(list1.get(0));
         for (int component:list1) {
@@ -24,7 +25,8 @@ public class Arraylist1 {
         list1.add(90);
         list1.add(70);
         list1.add(65);
-        Collections.sort(list1);
+        list1.set(0,20);
+        //Collections.sort(list1);
         System.out.println(list1);
     }
 }
