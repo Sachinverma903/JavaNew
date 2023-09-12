@@ -21,7 +21,6 @@ public class VowelsConsonant {
                 System.out.println("Given alphabet is consonants");
             }
 
-
         }
         else {
             System.out.println("Please enter one character");
